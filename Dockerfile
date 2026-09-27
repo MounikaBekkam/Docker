@@ -2,4 +2,4 @@ FROM nginx
 MAINTAINER mounika
 LABEL docker file example
 EXPOSE 80
-COPY html-code /usr/share/nginx/html/
+COPY index.html /usr/share/nginx/html/
